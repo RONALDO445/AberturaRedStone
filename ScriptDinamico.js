@@ -11,8 +11,7 @@ money=document.getElementById('creatorLink');
 setTimeout(() => {valor();}, 4000);
 
 window.onload=function(){
-  botão.addEventListener("click", setTimeout(() => {global();
-  }, 4000)); 
+  botão.addEventListener("click", global()); 
 }
 function global(){
 backgroundColor = "#000"
