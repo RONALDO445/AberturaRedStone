@@ -1,4 +1,10 @@
+botão=document.getElementById('enterGameButton');
 
+window.onload=function(){
+  botão.addEventListener("click", setTimeout(() => {global();
+  }, 4000)); 
+}
+function global(){
 backgroundColor = "#000"
 function renderPlayer(a,d,c,b,g) {
 {
@@ -17,4 +23,4 @@ function renderPlayer(a,d,c,b,g) {
         c, a.size, b));
     b.restore()
 }
-}
+}}
