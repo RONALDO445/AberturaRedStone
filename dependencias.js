@@ -30,5 +30,4 @@ function valor(){
     criar.innerHTML='R$:'+'null';
     criar.style.margin='2px';
     money.appendChild(criar);
-}
-valor();
+}setTimeout(() => {;valor()}, 5000);
