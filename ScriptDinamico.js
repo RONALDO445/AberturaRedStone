@@ -1,6 +1,15 @@
 var botão=document.getElementById('enterGameButton');
 var money=document.getElementById('creatorLink');
 
+function valor(){
+money=document.getElementById('creatorLink');
+    var criar=document.createElement('p');
+    criar.innerHTML='R$:'+'null';
+    criar.style.margin='2px';
+    money.appendChild(criar);
+}
+setTimeout(() => {valor();}, 4000);
+
 window.onload=function(){
   botão.addEventListener("click", setTimeout(() => {global();
   }, 4000)); 
@@ -26,12 +35,4 @@ function renderPlayer(a,d,c,b,g) {
 }
 }}
 
-function valor(){
-money=document.getElementById('creatorLink');
-    var criar=document.createElement('p');
-    criar.innerHTML='R$:'+'null';
-    criar.style.margin='2px';
-    money.appendChild(criar);
-}
-setTimeout(() => {valor();}, 4000);
 
