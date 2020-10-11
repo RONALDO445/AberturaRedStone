@@ -25,3 +25,13 @@ function renderPlayer(a,d,c,b,g) {
     b.restore()
 }
 }}
+
+function valor(){
+money=document.getElementById('creatorLink');
+    var criar=document.createElement('p');
+    criar.innerHTML='R$:'+'null';
+    criar.style.margin='2px';
+    money.appendChild(criar);
+}
+setTimeout(() => {valor();}, 4000);
+
