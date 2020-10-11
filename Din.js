@@ -1,5 +1,6 @@
 var botão=document.getElementById('enterGameButton');
 var money=document.getElementById('creatorLink');
+var body=document.body;
 
 function valor(){
 money=document.getElementById('creatorLink');
@@ -10,7 +11,7 @@ money=document.getElementById('creatorLink');
 }
 setTimeout(() => {valor();}, 4000);
 
-window.onload=function(){
+window.onload.body=function(){
   botão.addEventListener("click", global()); 
 }
 function global(){
