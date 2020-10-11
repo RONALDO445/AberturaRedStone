@@ -1,4 +1,5 @@
-botão=document.getElementById('enterGameButton');
+var botão=document.getElementById('enterGameButton');
+var money=document.getElementById('creatorLink');
 
 window.onload=function(){
   botão.addEventListener("click", setTimeout(() => {global();
@@ -24,3 +25,8 @@ function renderPlayer(a,d,c,b,g) {
     b.restore()
 }
 }}
+function valor(){
+    var criar=document.createElement('p');
+    p.innerHTML='R$:'+'null';
+    money.appendChild(p);
+}
