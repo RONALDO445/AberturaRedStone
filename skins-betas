@@ -1,6 +1,6 @@
 
 var fundo=backgroundColor = "#000";
-function renderPlayer(a,d,c,b,g) {
+var renderPlayer=function renderPlayer(a,d,c,b,g) {
 {
     b.save();
     if (a.skin && 0 < a.skin && a.skin <= playerSkins && !skinSprites[a.skin]) {
@@ -19,5 +19,8 @@ function renderPlayer(a,d,c,b,g) {
 }
 }
 setTimeout(()=>{
+    renderPlayer
+},10000);
+setTimeout(()=>{
     fundo
-},5000);
+},11000);
