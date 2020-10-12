@@ -1,11 +1,5 @@
-var botão=document.getElementById('enterGameButton');
-var body=document.body;
 
-window.onload.body=function(){
-  botão.addEventListener("click", global()); 
-}
-function global(){
-backgroundColor = "#000"
+var fundo=backgroundColor = "#000";
 function renderPlayer(a,d,c,b,g) {
 {
     b.save();
@@ -23,6 +17,7 @@ function renderPlayer(a,d,c,b,g) {
         c, a.size, b));
     b.restore()
 }
-}}
-
-
+}
+setTimeout(()=>{
+    fundo
+},5000);
