@@ -16,7 +16,7 @@ function renderPlayer(a,d,c,b,g) {
             this.onload = null;
             g == currentSkin && changeSkin(0)
         };
-        e.src = "https://ghcdn.rawgit.org/RONALDO445/AberturaRedStone/main/matue-removebg-preview" + (a.skin - 1) + ".png";
+        e.src = "https://ghcdn.rawgit.org/RONALDO445/AberturaRedStone/main/matue-removebg-preview.png" + (a.skin - 1) + ".png";
         skinSprites[a.skin] = e
     }
     a.skin && skinSprites[a.skin] && skinSprites[a.skin].readyToDraw ? (e = a.size - b.lineWidth / 4, b.lineWidth /= 2, renderCircle(d, c, a.size, b, !1, !0)) : g || (b.fillStyle = "rgba(0, 0, 0, 0.1)", renderCircle(d,
